@@ -1,0 +1,26 @@
+#Estruturas de dados = organização para armazenamento de dados
+Algoritmos podem manipular dados das estruturas de diferentes formas
+Principais estruturas de dados = vetores/matrizes, registro, lista, pilha, fila, árvore, tabela hash, grafos
+Vetores e matrizes (arrays) = estruturas de dados simples (agrupamento de variáveis de mesmo tipo) (Valores fixos)
+Matriz multi-dimensional = vetor de vetores -> matriz
+Registros = difere de arrays pois ele pode armazenar dados de diferentes tipos (campos especificam o registro para poder armazenar os dados de tipos diferentes) -> exemplo: nome do registro = livro, dado que quer acessar = preco, comando para acessar o dado = livro.preco
+
+Listas -> armazenamento de dados de um determinado tipo em uma ordem específica
+	Diferentemente dos arrays, as listas têm valores ajustáveis
+Listas ligadas -> presença de “nós” que conhecem os valores sendo armazenados em seu interior e nos do elemento posterior 
+Listas duplamente ligadas -> presença de “nós” que conhecem os valores sendo armazenados em seu interior, os do elemento posterior e também os do elemento anterior
+
+Pilha -> coleção de elementos que somente permite acesso a itens individualmente podendo usar (ex: lido, removido, etc) um por vez
+LIFO/UEPS (last in first out/último que entra primeiro que sai) -> o primeiro elemento a ser retirado é o último que tiver sido inserido
+FIFO/PEPS (first in first out/primeiro que entra primeiro que sai) -> o primeiro elemento a entrar também será o primeiro a sair
+
+Filas -> remove-se o elemento que está na estrutura há mais tempo (igual a lógica do FIFO)
+
+Árvores -> organiza os elementos de forma hierárquica a partir da raiz para os nós/folhas
+
+Tabela hash/ de dispersão/ espalhamento -> estrutura de dados especial que associa chaves de pesquisa a valores = generalização da ideias do array que utiliza a função hashing para espalhar elemento colocando eles de forma não ordenada dentro de um array que define a tabela = pega um monte de elementos que ordena eles aleatoriamente num vetor MAS permite a associação de “valores” a “chaves” sendo o valor a posição do índice e a chave é parte do valor que compõe a chave
+	A intenção é espalhar para facilitar a busca pois a partir de uma chave é possível acessar rapidamente uma posição do array -> atribui um código no elemento para encontrar mais facilmente
+
+Grafo -> estrutura que permitem programar a relação entre objetos
+	Objetos são os vértices/nós dos grafos
+	Relacionamentos são as arestas

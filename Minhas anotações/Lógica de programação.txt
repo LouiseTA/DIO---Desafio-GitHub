@@ -1,0 +1,18 @@
+Algorítmos são basicamente sequências de comandos para resolver algo ou chegar a um resultado
+Pseudocódigos são basicamente passos em um algoritmo
+Fluxogramas representam graficamente um algoritmo (representação esquemática de um processo)
+Variáveis = objetos que têm seus valores alterados no processo  (tipos -> numéricas [inteiro = números inteiros, real = números quebrados], caracteres [alfanuméricos] e lógicas [v ou f])
+Constantes = objetos com valores que não se alteram no processo
+Concatenação = união/agrupamento de strings (sequência de caracteres)
+
+Estrutura de repetição = execução de um comando ou conjunto de comandos mais de uma vez
+Estrutura de looping com comando sendo repetido até chegar a um limite determinado
+Linguagens de programação podem ser de baixo (linguagem próxima à de máquinas) e alto (linguagem com sintaxe se aproxima da linguagem humana) nível
+Linguagens de programação podem ser compiladas (código fonte é traduzido através de uma compilação para uma forma executável [e.x.e] diretamente pelo sistema operacional) OU interpretadas (código fonte é interpretado por um programa para em seguida ser executado pelo sistema operacional)
+Pseudocódigos = desenvolve programação visando o problema e não o algoritmo diretamente
+Função SE e SENAO - > dá duas opções , sim ou não
+Função CASO - > semelhante a função SE, mas da opção de usar mais de duas opções
+Laços de repetição = estrutura que executa mais de uma vez um comando ou conjunto de comandos
+Matriz = coleção de variáveis do mesmo tipo acessíveis com único nome e armazenados na memória  
+Vetor = Cada variável dentro da matriz dentro de um vetor é feita através do uso de índices
+Vetor = matrizes de dimensão única 

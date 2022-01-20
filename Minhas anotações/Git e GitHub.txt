@@ -1,0 +1,41 @@
+Git e GitHub
+Controle de versão
+Armazenamento em nuvem
+Trabalho em equipe
+Melhorar seu código
+Reconhecimento
+
+Comandos gerais do Git
+Mudar pastas - “CD/” colocar nome da pasta que quer e enter
+Listas pastas - “DIR” 
+Criar pastas/archivos - “MKDIR WORKSPACE” 
+Deletar pastas/arquivos - “DEL” nome da pasta
+Retroceder nível de navegação - “CD ..”
+Limpeza de tela - “CLS”
+Remover workspace - “RMDIR WORKSPACE”
+
+Windows - CMD - 
+
+
+SHA 1 -> algoritmo de encriptação -> encriptação gera conjunto de caracteres de 40 dígitos -> identificação de algoritmos de forma segura e rápida através dos dados encriptados 
+
+Objetos do git 
+Blob -> armazena um dado de uma forma mais específica -> metadados do git em formato encriptado do Sha
+Tree -> armazenam blobs -> contém também metadados de blobs de Sha -> monta a estrutura dos arquivos blobs -> tem SHA das árvores também, encriptando as árvores em Sha também
+Commit -> dá significado para árvores/blobs com o nome do autor e outros dados relacionados ao arquivo, como ele foi feito e quem o fez -> demonstra como o código está 100% seguro
+
+Chaves SSh e Tokens
+Chase SSH -> estabelece conexão segura entre máquinas
+
+Git / Criando um repositório
+Git init -> criar/iniciar repositório
+Git add -> adicionar ação
+Git commit -> significancia e assinatura de código
+
+Estados de arquivos
+Working directory
+Staging area
+Arquivos ficam transitando nessas duas áreas até que sejam commitados para poderem ir para o repositório local que futuramente poderá ser enviado para um repositório remoto
+Git status -> indica em que estado o arquivo em questão está
+
+GitHub -> repositório remoto
